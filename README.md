@@ -7,9 +7,13 @@ Con esta visualización podrá identificar el comportamiento de los estudiantes 
 ## TECNOLOGÍAS UTILIZADAS
 
 D3.js
+
 Bootstrap
+
 DataGrip
+
 Postgres
+
 Visual Basic
 
 

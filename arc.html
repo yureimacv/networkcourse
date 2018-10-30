@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Rutas - MOOC Matemáticas en primaria </title>
+<style>
+
+.links path {
+  fill: none;
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+</style>
+<meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+  <center><h1 class="display-2">Rutas de estudiantes en el MOOC</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Educación Matemática para profesores de primaria</h5>
+            <p class="card-text">Un curso de la Universidad de los Andes, completamente gratuito, publicado en la plataforma Coursera, este es un análisis de 3500 estudiantes registrados en el curso al mes de Julio de 2018, en esta visualización podrá identificar el comportamiento de los estudiantes en el curso.</p>
+            <p class="card-text"><small class="text-muted">Last updated 30 October 2018</small></p>
+        </div>
+    </div>
+<svg></svg></center>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var i, j, node;
+var groupSep = 10;
+var colors = d3.scaleOrdinal(d3.schemeCategory10);
+
+var nodeRadius = d3.scaleSqrt().range([3, 7]);
+
+var linkWidth = d3.scaleLinear().range([1.5, 2 * nodeRadius.range()[0]]);
+
+var margin = {
+  top: nodeRadius.range()[1] + 1,
+  right: nodeRadius.range()[1] + 1,
+  bottom: nodeRadius.range()[1] + 1,
+  left: nodeRadius.range()[1] + 1
+};
+
+var width = 1260 - margin.left - margin.right;
+var height = 200 - margin.top - margin.bottom;
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .attr("font-family","Arial")
+    .style("font-size", "10pt")
+    .attr("width", "100px")
+    .style('position', "absolute")
+    .style("opacity", 0);
+
+
+var x = d3.scaleLinear().range([0, width]);
+
+var svg = d3.select('svg')
+  .attr('width', width + margin.left + margin.right)
+  .attr('height', height + margin.top + margin.bottom)
+  .append('g')
+  .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+d3.json('https://raw.githubusercontent.com/yureimacv/networkcourse/master/items.json', function (error, graph) {
+  if (error) throw error;
+
+  var idToNode = {};
+
+  graph.nodes.forEach(function (n) {
+    idToNode[n.item] = n;
+  });
+
+  graph.links.forEach(function (e) {
+    e.source = idToNode[e.source];
+    e.target = idToNode[e.target];
+  });
+
+  
+  for (i = 0, j = 0; i < graph.nodes.length; ++i) {
+    node = graph.nodes[i];
+    node.x = j * groupSep + i * (width - 4 * groupSep) / (graph.nodes.length - 1);
+    node.y = height;
+  }
+
+  nodeRadius.domain(d3.extent(graph.nodes, function (d) { return d.tam; }));
+
+  linkWidth.domain(d3.extent(graph.links, function (d) { return d.tam; }));
+
+  var link = svg.append('g')
+    .attr('class', 'links')
+    .selectAll('path')
+    .data(graph.links)
+    .enter().append('path')
+    .attr('d', function (d) {
+      return ['M', d.source.x, height, 'A',
+        (d.source.x - d.target.x)/2, ',',
+        (d.source.x - d.target.x)/2, 0, 0, ',',
+        d.source.x < d.target.x ? 1 : 0, d.target.x, ',', height]
+        .join(' ');
+    })
+    .attr('stroke-width', function (d) { return linkWidth(+d.tam); })
+    .on('mouseover', function (d) {
+      link.style('stroke', null);
+      d3.select(this).style('stroke', '#d62333');
+      node.style('fill', function (node_d) {
+        return node_d === d.source || node_d === d.target ? 'black' : null;
+      });
+    })
+    .on('mouseout', function (d) {
+      link.style('stroke', null);
+      node.style('fill', null);
+    });
+
+  var node = svg.append('g')
+    .attr('class', 'nodes')
+    .selectAll('circle')
+    .data(graph.nodes)
+    .enter().append('circle')
+    .attr('cx', function (d) { return d.x; })
+    .attr('cy', function (d) { return d.y; })
+    .attr('r', function (d) { return nodeRadius(d.tam); })
+    .attr("fill", function(d,i) {return colors(d.modulo);})
+    .on('mouseover', function (d) {
+      node.style('fill', null);
+      d3.select(this).style('fill', 'black');
+      var nodesToHighlight = graph.links.map(function (e) { return e.source === d ? e.target : e.target === d ? e.source : 0})
+        .filter(function (d) { return d; });
+      node.filter(function (d) { return nodesToHighlight.indexOf(d) >= 0; })
+        .style('fill', '#555');
+      link.style('stroke', function (link_d) {
+        return link_d.source === d | link_d.target === d ? '#d62333' : null;
+      });
+      div.transition()
+                  .duration(200)
+                  .style("opacity", .9);
+                div.html("<center><b>"+ d.item +"</b><br/>"+d.modulo+"</center>")
+                  .style("left", (d3.event.pageX - 60) + "px")
+                  .style("top", (d3.event.pageY + 20)+ "px");
+                console.log(d3.event.pageX);
+    })
+    .on('mouseout', function (d) {
+      node.style('fill', null);
+      link.style('stroke', null);
+      div.transition()
+                  .duration(200)
+                  .style("opacity", .9);
+                div.html("")
+                  .style("left", (d3.event.pageX - 60) + "px")
+                  .style("top", (d3.event.pageY + 20)+ "px");
+    });
+
+  //node.append('title').text(function (d) { return d.name});// + ' - ' + d.firstChapter.join('.'); });
+
+  
+});
+
+</script>
+<br/><br/><br/>
+
+<div class="card"></div>
+<div class="card">
+        <div class="card-body">
+            <ul>
+              <li>Muy pocas personas han llegado a la completitud del curso, hay alta deserción después del módulo 2 y continúa decreciendo tipo logaritmo natural.</li>
+              <li>Se tiene la teoría que muchos estudiantes únicamente realizaban las actividades necesarias para adquirir el certificado, mediante la visualización se verifica que esta teoría no es cierta.</li>
+              <li>Se identifican algunas actividades que no son visitadas por los estudiantes, por ejemplo, Estatura (Actividad de aprendizaje) y Hectáreas (Actividad de aprendizaje) del módulo Magnitudes y medidas.</li>
+            <li>Se identifican inconvenientes con los ítems que tienen nombre de módulos iguales.</li>
+            </ul>
+            <center><p class="card-text"><small class="text-muted">Insight</small></p></center>
+        </div>
+    </div>
+<div class="card border-light mb-3" style="max-width: 200rem;">
+  <div class="card-header">Framework Tamara</div>
+  <div class="card-body">
+    <h5 class="card-title">WHAT</h5>
+    <p class="card-text">Dataset Type: Network and tree*<br/>
+
+Attribute types<br/>
+Modulo: Ordinal.<br/>
+Item: Ordinal.<br/>
+Tamaño nodos: Ordinal.<br/>
+Tamaño enlaces: Cuantitativa.<br/>
+</p>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">WHY</h5>
+    <p class="card-text">Identificar el comportamiento de los estudiantes en el curso [Summarize – Topology]<br/>
+Preparar los datos para visualizar la red [Derive]<br/>
+Identificar si hay estudiantes que unicamente realizan las actividades necesarias para adquirir el  certificados (Cuestionarios y actividades de aprendizaje) [Lookup – trends]<br/><br/>
+MARCAS:<BR/>
+LÍneas para representar paths.<BR/>
+Puntos para representar nodos (Items de cada módulo)<BR/>
+Containment (una marca como enlace) para representar los modulos<BR/><br/>
+CANALES<br/>
+Position on common scale for nodes (items)<br/>
+Color saturation to show similarity(Modules)<br/>
+Area to express kind of nodes (Tamaño nodos)<br/>
+Length to express relaciones<br/>
+</p>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">HOW</h5>
+    <p class="card-text">Distribución de Módulos e Items: Separate and order.<br/>
+Modulos: Color Hue.<br/>
+Enconde: Size para tipo de item.<br/>
+Superimpose<br/>
+</p>
+  </div>
+<p class="card-text"><small class="text-muted">* Inicialmente el dataset es una tabla pero se realizaron ajustes (derive) para construir el dataset tipo Network.</small></p>
+</div>
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <div class="footer-copyright text-center py-3">© 2018 Creado por Maria Castro (Yureimacv):
+    <a href="https://tldrlegal.com/license/mit-license" target="_blank">  Under the MIT license </a>
+  </div>
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

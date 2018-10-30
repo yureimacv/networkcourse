@@ -16,8 +16,9 @@ Postgres
 
 Visual Basic
 
+## .
 
-*Basado en visulización https://bl.ocks.org/rpgove/53bb49d6ed762139f33bdaea1f3a9e1c*
+*Se tomó en consideración para el desarrollo del resultado presentado, el código desarrollado en https://bl.ocks.org/rpgove/53bb49d6ed762139f33bdaea1f3a9e1c*
 
 
 @Yureimacv

@@ -4,3 +4,13 @@ La visualización: [Rutas en MOOC](https://yureimacv.github.io/networkcourse/arc
 
 Con esta visualización podrá identificar el comportamiento de los estudiantes en el curso.
 
+## TECNOLOGÍAS UTILIZADAS
+
+D3.js
+Bootstrap
+DataGrip
+Postgres
+Visual Basic
+
+
+@Yureimacv

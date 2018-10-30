@@ -52,7 +52,7 @@
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Los enchufes (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -67,12 +67,12 @@
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Compra - venta (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Número de identificación (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -92,12 +92,12 @@
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Secuencias de conteo (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Error de conteo de un niño (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -117,7 +117,7 @@
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Formas de representar un número (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -137,7 +137,7 @@
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Reglas del sistema de numeración (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -151,13 +151,13 @@
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
-    "item": "Mapa conceptual del módulo",
+    "item": "Mapa conceptual del módulo Mod1",
     "tam": 10
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
     "item": "Cuestionario final módulo números naturales y sistemas de numeración",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números naturales y sistemas de numeración",
@@ -187,7 +187,7 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Situación de ahorro (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -207,7 +207,7 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Verificación de problemas (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -222,7 +222,7 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Procedimientos de cálculo (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -237,12 +237,12 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Amortización de crédito bancario (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Publicidad falsa de helados (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -262,7 +262,7 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Los caramelos de Lucy (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -277,7 +277,7 @@
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Multiplicación/división en el ábaco (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -291,13 +291,13 @@
   },
   {
     "modulo": "Aritmética de los números naturales",
-    "item": "Mapa conceptual del módulo",
+    "item": "Mapa conceptual del módulo Mod2",
     "tam": 10
   },
   {
     "modulo": "Aritmética de los números naturales",
     "item": "Cuestionario final módulo aritmética de los números naturales",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aritmética de los números naturales",
@@ -322,7 +322,7 @@
   {
     "modulo": "Números racionales",
     "item": "Representación de los racionales (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -337,7 +337,7 @@
   {
     "modulo": "Números racionales",
     "item": "Error en un número racional (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -357,12 +357,7 @@
   {
     "modulo": "Números racionales",
     "item": "Identificar el significado de la fracción (actividad de aprendizaje)",
-    "tam": 11
-  },
-  {
-    "modulo": "Números racionales",
-    "item": "Operaciones con fracciones",
-    "tam": 10
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -377,7 +372,7 @@
   {
     "modulo": "Números racionales",
     "item": "Contenido de una porción (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -392,12 +387,12 @@
   {
     "modulo": "Números racionales",
     "item": "Una pequeña parte del metro (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
     "item": "Sistema métrico decimal (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -427,17 +422,17 @@
   {
     "modulo": "Números racionales",
     "item": "Perímetro - lado del cuadrado (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
-    "item": "Mapa conceptual del módulo",
+    "item": "Mapa conceptual del módulo Mod3",
     "tam": 10
   },
   {
     "modulo": "Números racionales",
     "item": "Cuestionario final módulo números racionales",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Números racionales",
@@ -472,7 +467,7 @@
   {
     "modulo": "Geometría elemental del plano",
     "item": "Segmentos (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
@@ -492,7 +487,7 @@
   {
     "modulo": "Geometría elemental del plano",
     "item": "Poligonal y polígono (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
@@ -512,12 +507,12 @@
   {
     "modulo": "Geometría elemental del plano",
     "item": "Clasificación de triángulos (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
     "item": "Medidas de ángulos (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
@@ -532,7 +527,7 @@
   {
     "modulo": "Geometría elemental del plano",
     "item": "Clasificación de cuadriláteros (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
@@ -551,13 +546,13 @@
   },
   {
     "modulo": "Geometría elemental del plano",
-    "item": "Mapa conceptual del módulo",
+    "item": "Mapa conceptual del módulo Mod4",
     "tam": 10
   },
   {
     "modulo": "Geometría elemental del plano",
     "item": "Cuestionario final módulo geometría elemental del plano",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Geometría elemental del plano",
@@ -592,12 +587,12 @@
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "El experimento de Arquímedes (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "El lingote y la corona (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -612,12 +607,12 @@
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Rendimiento de combustible (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "El arca de Noé (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -632,7 +627,7 @@
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Cálculo de áreas (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -647,12 +642,12 @@
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Logotipo (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Estatura (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -667,7 +662,7 @@
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Hectáreas (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -681,13 +676,13 @@
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
-    "item": "Mapa conceptual del módulo",
+    "item": "Mapa conceptual del módulo Mod5",
     "tam": 10
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
     "item": "Cuestionario final módulo magnitudes y medidas",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Magnitudes y medidas. Medidas directas",
@@ -697,7 +692,7 @@
   {
     "modulo": "Aplicación de los conceptos aprendidos",
     "item": "Construcción de un mueble (actividad de aprendizaje)",
-    "tam": 11
+    "tam": 14
   },
   {
     "modulo": "Aplicación de los conceptos aprendidos",
@@ -923,7 +918,7 @@
   },
   {
     "source": "Mapa conceptual del resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod1",
     "tam": 338
   },
   {
@@ -1007,7 +1002,7 @@
     "tam": 281
   },
   {
-    "source": "Mapa conceptual del módulo",
+    "source": "Mapa conceptual del módulo Mod1",
     "target": "Cuestionario final módulo números naturales y sistemas de numeración",
     "tam": 277
   },
@@ -1123,7 +1118,7 @@
   },
   {
     "source": "Mapa conceptual del resumen de las cuestiones claves de la aritmética de los números naturales",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod2",
     "tam": 189
   },
   {
@@ -1177,7 +1172,7 @@
     "tam": 167
   },
   {
-    "source": "Mapa conceptual del módulo",
+    "source": "Mapa conceptual del módulo Mod2",
     "target": "Cuestionario final módulo aritmética de los números naturales",
     "tam": 165
   },
@@ -1268,7 +1263,7 @@
   },
   {
     "source": "Mapa conceptual del resumen de las cuestiones claves de los números racionales",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod3",
     "tam": 135
   },
   {
@@ -1447,13 +1442,13 @@
     "tam": 98
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Cuestionario final módulo números racionales",
+    "source": "Características de los triángulos",
+    "target": "Mapa conceptual de los triángulos",
     "tam": 97
   },
   {
-    "source": "Características de los triángulos",
-    "target": "Mapa conceptual de los triángulos",
+    "source": "Mapa conceptual del módulo Mod3",
+    "target": "Cuestionario final módulo números racionales",
     "tam": 97
   },
   {
@@ -1707,11 +1702,6 @@
     "tam": 67
   },
   {
-    "source": "Mapa conceptual del resumen de las cuestiones claves de la geometría elemental del plano",
-    "target": "Mapa conceptual del módulo",
-    "tam": 64
-  },
-  {
     "source": "¿En qué se  diferencian cuantificar y contar?",
     "target": "Compra - venta (actividad de aprendizaje)",
     "tam": 64
@@ -1739,6 +1729,11 @@
   {
     "source": "Relación de correspondencia",
     "target": "Historia de los números naturales",
+    "tam": 63
+  },
+  {
+    "source": "Mapa conceptual del resumen de las cuestiones claves de la geometría elemental del plano",
+    "target": "Mapa conceptual del módulo Mod4",
     "tam": 63
   },
   {
@@ -1927,16 +1922,6 @@
     "tam": 51
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Bibliografía números naturales y sistemas de numeración",
-    "tam": 50
-  },
-  {
-    "source": "Mapa conceptual del módulo",
-    "target": "Cuestionario final módulo geometría elemental del plano",
-    "tam": 50
-  },
-  {
     "source": "Pensemos  en  diferentes  formas de  expresar el  número  tres",
     "target": "Secuencias de conteo (actividad de aprendizaje)",
     "tam": 50
@@ -1959,6 +1944,16 @@
   {
     "source": "Mapa conceptual del sistema decimal de numeración",
     "target": "¿Qué es el  sistema  decimal de  numeración  ?",
+    "tam": 50
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Bibliografía números naturales y sistemas de numeración",
+    "tam": 50
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod4",
+    "target": "Cuestionario final módulo geometría elemental del plano",
     "tam": 50
   },
   {
@@ -2012,11 +2007,6 @@
     "tam": 45
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Reglas del sistema de numeración (actividad de aprendizaje)",
-    "tam": 45
-  },
-  {
     "source": "Números decimales",
     "target": "Proporcionalidad entre cantidades",
     "tam": 45
@@ -2024,6 +2014,11 @@
   {
     "source": "¿Cumplen las mismas propiedades la adición y la sustracción?",
     "target": "Situación de ahorro (actividad de aprendizaje)",
+    "tam": 45
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Reglas del sistema de numeración (actividad de aprendizaje)",
     "tam": 45
   },
   {
@@ -2248,7 +2243,7 @@
   },
   {
     "source": "Resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod1",
     "tam": 37
   },
   {
@@ -2327,11 +2322,6 @@
     "tam": 34
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Mapa conceptual del módulo",
-    "tam": 34
-  },
-  {
     "source": "Mapa conceptual de los principios del conteo",
     "target": "Número de identificación (actividad de aprendizaje)",
     "tam": 34
@@ -2387,11 +2377,6 @@
     "tam": 32
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Multiplicación/división en el ábaco (actividad de aprendizaje)",
-    "tam": 32
-  },
-  {
     "source": "Situación de ahorro (actividad de aprendizaje)",
     "target": "Operaciones aditivas",
     "tam": 32
@@ -2404,6 +2389,11 @@
   {
     "source": "Relación de correspondencia",
     "target": "Mapa conceptual de los usos de los números naturales",
+    "tam": 32
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod2",
+    "target": "Multiplicación/división en el ábaco (actividad de aprendizaje)",
     "tam": 32
   },
   {
@@ -2422,11 +2412,6 @@
     "tam": 31
   },
   {
-    "source": "Reglas del sistema de numeración (actividad de aprendizaje)",
-    "target": "Mapa conceptual del módulo",
-    "tam": 31
-  },
-  {
     "source": "Relación de correspondencia",
     "target": "Mapa conceptual de la historia de los números naturales",
     "tam": 31
@@ -2437,9 +2422,9 @@
     "tam": 31
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Perímetro - lado del cuadrado (actividad de aprendizaje)",
-    "tam": 30
+    "source": "Reglas del sistema de numeración (actividad de aprendizaje)",
+    "target": "Mapa conceptual del módulo Mod1",
+    "tam": 31
   },
   {
     "source": "Bibliografía aritmética de los números naturales",
@@ -2474,6 +2459,11 @@
   {
     "source": "¿Qué es y cómo se representa un número?",
     "target": "¿Sabes cuántos pasos sigues para contar?",
+    "tam": 30
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod3",
+    "target": "Perímetro - lado del cuadrado (actividad de aprendizaje)",
     "tam": 30
   },
   {
@@ -2662,11 +2652,6 @@
     "tam": 26
   },
   {
-    "source": "Mapa conceptual del resumen de las cuestiones claves de magnitudes y medidas",
-    "target": "Mapa conceptual del módulo",
-    "tam": 26
-  },
-  {
     "source": "Mapa conceptual de los conceptos aprendidos en el curso",
     "target": "Aplicación de los conceptos aprendidos",
     "tam": 26
@@ -2707,13 +2692,13 @@
     "tam": 26
   },
   {
-    "source": "Poligonal y polígono (actividad de aprendizaje)",
-    "target": "Clasificación de triángulos (actividad de aprendizaje)",
-    "tam": 25
+    "source": "Mapa conceptual del resumen de las cuestiones claves de magnitudes y medidas",
+    "target": "Mapa conceptual del módulo Mod5",
+    "tam": 26
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Cuestionario final módulo magnitudes y medidas",
+    "source": "Poligonal y polígono (actividad de aprendizaje)",
+    "target": "Clasificación de triángulos (actividad de aprendizaje)",
     "tam": 25
   },
   {
@@ -2754,6 +2739,11 @@
   {
     "source": "¿Qué es y cómo se representa un número?",
     "target": "Error de conteo de un niño (actividad de aprendizaje)",
+    "tam": 25
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod5",
+    "target": "Cuestionario final módulo magnitudes y medidas",
     "tam": 25
   },
   {
@@ -3047,11 +3037,6 @@
     "tam": 19
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Formas de representar un número (actividad de aprendizaje)",
-    "tam": 19
-  },
-  {
     "source": "Mapa conceptual de las representaciones de los números racionales",
     "target": "Elementos y representaciones de los números racionales",
     "tam": 19
@@ -3064,6 +3049,11 @@
   {
     "source": "Mapa conceptual del resumen de las cuestiones claves de la aritmética de los números naturales",
     "target": "Multiplicación/división en el ábaco (actividad de aprendizaje)",
+    "tam": 19
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Formas de representar un número (actividad de aprendizaje)",
     "tam": 19
   },
   {
@@ -3112,11 +3102,6 @@
     "tam": 18
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Bibliografía: Números racionales",
-    "tam": 18
-  },
-  {
     "source": "Secuencias de conteo (actividad de aprendizaje)",
     "target": "¿Qué  hacemos  cuando  contamos?",
     "tam": 18
@@ -3139,6 +3124,11 @@
   {
     "source": "Mapa conceptual de estimación",
     "target": "Sistema métrico decimal y sistema internacional de medida",
+    "tam": 18
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod3",
+    "target": "Bibliografía: Números racionales",
     "tam": 18
   },
   {
@@ -3322,16 +3312,6 @@
     "tam": 15
   },
   {
-    "source": "Resumen de las cuestiones claves de la aritmética de los números naturales",
-    "target": "Mapa conceptual del módulo",
-    "tam": 15
-  },
-  {
-    "source": "Mapa conceptual del módulo",
-    "target": "Bibliografía aritmética de los números naturales",
-    "tam": 15
-  },
-  {
     "source": "Amortización de crédito bancario (actividad de aprendizaje)",
     "target": "Mapa conceptual de las propiedades de las operaciones multiplicativas",
     "tam": 15
@@ -3364,6 +3344,21 @@
   {
     "source": "Introducción a los tipos de magnitudes",
     "target": "Introducción a los tipos de magnitudes",
+    "tam": 15
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Mapa conceptual del módulo Mod1",
+    "tam": 15
+  },
+  {
+    "source": "Resumen de las cuestiones claves de la aritmética de los números naturales",
+    "target": "Mapa conceptual del módulo Mod2",
+    "tam": 15
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod2",
+    "target": "Bibliografía aritmética de los números naturales",
     "tam": 15
   },
   {
@@ -3458,13 +3453,8 @@
   },
   {
     "source": "Multiplicación/división en el ábaco (actividad de aprendizaje)",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod2",
     "tam": 14
-  },
-  {
-    "source": "Mapa conceptual del sistema decimal de numeración",
-    "target": "Mapa conceptual del módulo",
-    "tam": 13
   },
   {
     "source": "Mapa conceptual del origen de los números naturales",
@@ -3499,11 +3489,6 @@
   {
     "source": "Mapa conceptual de razón y proporción",
     "target": "Proporcionalidad entre cantidades",
-    "tam": 13
-  },
-  {
-    "source": "Mapa conceptual del módulo",
-    "target": "Mapa conceptual del resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
     "tam": 13
   },
   {
@@ -3607,8 +3592,18 @@
     "tam": 13
   },
   {
+    "source": "Mapa conceptual del sistema decimal de numeración",
+    "target": "Mapa conceptual del módulo Mod1",
+    "tam": 13
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Mapa conceptual del resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
+    "tam": 13
+  },
+  {
     "source": "Sistema métrico decimal (actividad de aprendizaje)",
-    "target": "Mapa conceptual del módulo",
+    "target": "Mapa conceptual del módulo Mod3",
     "tam": 13
   },
   {
@@ -3707,11 +3702,6 @@
     "tam": 12
   },
   {
-    "source": "Mapa conceptual del módulo",
-    "target": "Una pequeña parte del metro (actividad de aprendizaje)",
-    "tam": 12
-  },
-  {
     "source": "Introducción a la aritmética de los números naturales",
     "target": "Mapa conceptual de las concepciones de la adición",
     "tam": 12
@@ -3729,6 +3719,11 @@
   {
     "source": "El lingote y la corona (actividad de aprendizaje)",
     "target": "Medida de magnitudes y unidades de medida",
+    "tam": 12
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod3",
+    "target": "Una pequeña parte del metro (actividad de aprendizaje)",
     "tam": 12
   },
   {
@@ -3830,6 +3825,446 @@
     "source": "Mapa conceptual del resumen de las cuestiones claves de los números racionales",
     "target": "Una pequeña parte del metro (actividad de aprendizaje)",
     "tam": 11
+  },
+  {
+    "source": "Relación de correspondencia",
+    "target": "Introducción a la aritmética de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de los cuadriláteros",
+    "target": "Clasificación de cuadriláteros (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Presentación del curso",
+    "target": "¿En qué se  diferencian cuantificar y contar?",
+    "tam": 10
+  },
+  {
+    "source": "Introducción al curso",
+    "target": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "tam": 10
+  },
+  {
+    "source": "Los enchufes (actividad de aprendizaje)",
+    "target": "Origen de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Pensemos  en  diferentes  formas de  expresar el  número  tres",
+    "target": "¿Qué  hacemos  cuando  contamos?",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de la multiplicación de decimales y fracciones",
+    "target": "Mapa conceptual de razón y proporción",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual del origen de los números naturales",
+    "target": "¿Sabes cuántos pasos sigues para contar?",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de los cuadriláteros",
+    "target": "Clasificación de triángulos (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Bibliografía aritmética de los números naturales",
+    "target": "Los caramelos de Lucy (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Clasificación de figuras",
+    "target": "Clasificación de cuadriláteros (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Tipos de cuadriláteros",
+    "target": "Resumen de las cuestiones claves de la geometría elemental del plano",
+    "tam": 10
+  },
+  {
+    "source": "Video de cierre del curso",
+    "target": "Construcción de un mueble (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Introducción al curso",
+    "target": "Introducción a la aritmética de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Significados de la división y la multiplicación",
+    "target": "¿Cómo hacer una adición con el ábaco vertical?",
+    "tam": 10
+  },
+  {
+    "source": "Representaciones de números racionales",
+    "target": "Mapa conceptual de las representaciones de los números racionales",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de los principios del conteo",
+    "target": "Mapa conceptual de los usos de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de los usos de los números naturales",
+    "target": "¿Qué es y cómo se representa un número?",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de la introducción a geometría elemental del plano",
+    "target": "Nociones básicas",
+    "tam": 10
+  },
+  {
+    "source": "Características de los polígonos",
+    "target": "Características de los triángulos",
+    "tam": 10
+  },
+  {
+    "source": "Situación de ahorro (actividad de aprendizaje)",
+    "target": "Concepciones de la adición",
+    "tam": 10
+  },
+  {
+    "source": "Formas de representar un número (actividad de aprendizaje)",
+    "target": "Pensemos  en  diferentes  formas de  expresar el  número  tres",
+    "tam": 10
+  },
+  {
+    "source": "¿Cumplen las mismas propiedades la adición y la sustracción?",
+    "target": "Verificación de problemas (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Introducción a geometría elemental del plano",
+    "target": "Nociones básicas",
+    "tam": 10
+  },
+  {
+    "source": "Identificar el significado de la fracción (actividad de aprendizaje)",
+    "target": "Mapa conceptual de operaciones con fracciones",
+    "tam": 10
+  },
+  {
+    "source": "Relación de correspondencia",
+    "target": "Mapa conceptual del origen de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual del sistema decimal de numeración",
+    "target": "Error de conteo de un niño (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Operaciones aditivas",
+    "target": "Significados de la división y la multiplicación",
+    "tam": 10
+  },
+  {
+    "source": "Concepciones de la adición",
+    "target": "¿Cómo hacer una adición con el ábaco vertical?",
+    "tam": 10
+  },
+  {
+    "source": "Características de los triángulos",
+    "target": "Poligonal y polígono (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Introducción al curso",
+    "target": "¿Sabes cuántos pasos sigues para contar?",
+    "tam": 10
+  },
+  {
+    "source": "¿Sabes cuántos pasos sigues para contar?",
+    "target": "¿En qué se  diferencian cuantificar y contar?",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de las representaciones de los números naturales",
+    "target": "Mapa conceptual de los principios del conteo",
+    "tam": 10
+  },
+  {
+    "source": "Formas de representar un número (actividad de aprendizaje)",
+    "target": "Introducción a la aritmética de los números naturales",
+    "tam": 10
+  },
+  {
+    "source": "Triángulos",
+    "target": "Segmentos (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Resumen de las cuestiones claves de la geometría elemental del plano",
+    "target": "Clasificación de figuras",
+    "tam": 10
+  },
+  {
+    "source": "Resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
+    "target": "Formas de representar un número (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "¿Qué es y cómo se representa un número?",
+    "target": "Los enchufes (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Los enchufes (actividad de aprendizaje)",
+    "target": "¿Qué  hacemos  cuando  contamos?",
+    "tam": 10
+  },
+  {
+    "source": "Número de identificación (actividad de aprendizaje)",
+    "target": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de la historia de los números naturales",
+    "target": "Introducción al curso",
+    "tam": 10
+  },
+  {
+    "source": "Clasificación de cuadriláteros (actividad de aprendizaje)",
+    "target": "Resumen de las cuestiones claves de la geometría elemental del plano",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual de los significados de la división y la multiplicación",
+    "target": "Situación de ahorro (actividad de aprendizaje)",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual del resumen de las cuestiones claves de los números racionales",
+    "target": "Mapa conceptual del resumen de las cuestiones claves de los números racionales",
+    "tam": 10
+  },
+  {
+    "source": "Rendimiento de combustible (actividad de aprendizaje)",
+    "target": "¿Cómo mides la longitud de un objeto?",
+    "tam": 10
+  },
+  {
+    "source": "Presentación del curso",
+    "target": "¿Qué sabes del número natural?",
+    "tam": 10
+  },
+  {
+    "source": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "target": "Mapa conceptual del módulo Mod1",
+    "tam": 10
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod3",
+    "target": "Mapa conceptual del módulo Mod3",
+    "tam": 10
+  },
+  {
+    "source": "Cuestionario final módulo aritmética de los números naturales",
+    "target": "Mapa conceptual del módulo Mod2",
+    "tam": 10
+  },
+  {
+    "source": "Reglas del sistema de numeración (actividad de aprendizaje)",
+    "target": "Concepciones de la adición",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de los triángulos",
+    "target": "Características de los triángulos",
+    "tam": 9
+  },
+  {
+    "source": "Operaciones multiplicativas",
+    "target": "¿Cumplen la propiedad conmutativa la multiplicación y la división?",
+    "tam": 9
+  },
+  {
+    "source": "Recomedaciones para el éxito",
+    "target": "¿Qué sabes del número natural?",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de las formas de multiplicar y dividir",
+    "target": "Mapa conceptual del resumen de las cuestiones claves de la aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "Verificación de problemas (actividad de aprendizaje)",
+    "target": "¿Cumplen las mismas propiedades la adición y la sustracción?",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de las propiedades de las operaciones multiplicativas",
+    "target": "Significado de la multiplicación: ábaco vertical",
+    "tam": 9
+  },
+  {
+    "source": "Los caramelos de Lucy (actividad de aprendizaje)",
+    "target": "Mapa conceptual de las formas de multiplicar y dividir",
+    "tam": 9
+  },
+  {
+    "source": "Concepciones de la adición",
+    "target": "Mapa conceptual de la introducción a la aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual del resumen de las cuestiones claves de los números racionales",
+    "target": "Perímetro - lado del cuadrado (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "Pensemos  en  diferentes  formas de  expresar el  número  tres",
+    "target": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de las representaciones de los números racionales",
+    "target": "Mapa conceptual de las representaciones de los números racionales",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de los usos de los números naturales",
+    "target": "¿Qué sabes del número natural?",
+    "tam": 9
+  },
+  {
+    "source": "Relación de correspondencia",
+    "target": "¿Qué es y cómo se representa un número?",
+    "tam": 9
+  },
+  {
+    "source": "¿En qué se  diferencian cuantificar y contar?",
+    "target": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "tam": 9
+  },
+  {
+    "source": "Operaciones aditivas",
+    "target": "Operaciones multiplicativas",
+    "tam": 9
+  },
+  {
+    "source": "Bibliografía números naturales y sistemas de numeración",
+    "target": "¿Qué es el  sistema  decimal de  numeración  ?",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual del resumen de las cuestiones claves de la geometría elemental del plano",
+    "target": "Cuestionario final módulo geometría elemental del plano",
+    "tam": 9
+  },
+  {
+    "source": "Significado de la multiplicación: ábaco vertical",
+    "target": "Cuestionario final módulo aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "Compra - venta (actividad de aprendizaje)",
+    "target": "¿En qué se  diferencian cuantificar y contar?",
+    "tam": 9
+  },
+  {
+    "source": "Cantidad desconocida",
+    "target": "Una pequeña parte del metro (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "Bibliografía: Números racionales",
+    "target": "Sistema métrico decimal (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "¿Cumplen la propiedad conmutativa la multiplicación y la división?",
+    "target": "Significados de la división y la multiplicación",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de las nociones básicas",
+    "target": "Geometría",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual de los triángulos",
+    "target": "Tipos de cuadriláteros",
+    "tam": 9
+  },
+  {
+    "source": "Una pequeña parte del metro (actividad de aprendizaje)",
+    "target": "Perímetro - lado del cuadrado (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "Nociones básicas",
+    "target": "Segmentos (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "Bienvenida",
+    "target": "¿Qué sabes del número natural?",
+    "tam": 9
+  },
+  {
+    "source": "Operaciones aditivas",
+    "target": "Cuestionario final módulo aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "¿En qué se  diferencian cuantificar y contar?",
+    "target": "¿Qué es y cómo se representa un número?",
+    "tam": 9
+  },
+  {
+    "source": "Pensemos  en  diferentes  formas de  expresar el  número  tres",
+    "target": "Sistemas de numeración",
+    "tam": 9
+  },
+  {
+    "source": "Verificación de problemas (actividad de aprendizaje)",
+    "target": "Amortización de crédito bancario (actividad de aprendizaje)",
+    "tam": 9
+  },
+  {
+    "source": "Cuestionario final módulo números naturales y sistemas de numeración",
+    "target": "Cuestionario final módulo aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "Estatura (actividad de aprendizaje)",
+    "target": "Sistema métrico decimal y sistema internacional de medida",
+    "tam": 9
+  },
+  {
+    "source": "Elementos y representaciones de los números racionales",
+    "target": "Representaciones de números racionales",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Introducción a la aritmética de los números naturales",
+    "tam": 9
+  },
+  {
+    "source": "Formas de representar un número (actividad de aprendizaje)",
+    "target": "Mapa conceptual del módulo Mod1",
+    "tam": 9
+  },
+  {
+    "source": "Mapa conceptual del módulo Mod1",
+    "target": "Resumen de las cuestiones claves de los números naturales y los sistemas de numeración",
+    "tam": 9
+  },
+  {
+    "source": "Resumen de las cuestiones claves de los números racionales",
+    "target": "Mapa conceptual del módulo Mod3",
+    "tam": 9
   }
 ]
 }
